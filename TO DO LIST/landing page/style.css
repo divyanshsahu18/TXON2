@@ -1,0 +1,139 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 20px;
+    background-color:transparent;
+    z-index: 1;
+  }
+  
+  .logo img {
+    width: 150px;
+    height: 150x;
+  
+  }
+
+  .menu {
+    border: 2px solid #ef7d00;
+    padding: 10px;
+    border-radius: 10px;
+
+  }
+  
+  nav ul {
+    display: flex;
+  }
+  
+  nav li {
+    list-style: none;
+    margin-right: 20px;
+  }
+  
+  nav li a {
+    text-decoration: none;
+    color: #c4dfddd4;
+    font-weight: bold;
+    transition: color 0.3s ease;
+    text-shadow: 2px 2px 5px rgb(80, 138, 214);
+  }
+  
+  nav li a:hover {
+    color: #eb00efac;
+  }
+  
+  .hero {
+    height: 500px;
+    background-image: url('background.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .hero-text {
+    text-align: center;
+    color:yellow;
+  }
+  
+  .hero h1 {
+    font-size: 50px;
+    margin-bottom: 0px;
+    color:rgba(206, 26, 137, 0.605);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-display: fallback;
+    font-style:italic;
+  }
+  
+  .hero p {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color:rgba(196, 105, 20, 0.648);
+    text-shadow:2px 2px 5px #92402c4b ;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  .hero form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+  }
+  .search-bar{
+    height: 50px;
+    width: 100;
+    max-width: 500px;
+    background:rgba(235, 182, 47, 0.596);
+    display: flex;
+    align-items: center;
+    border-radius: 50px;
+    padding: 24px 20px;
+    border-color: #333;
+    backdrop-filter: blur(4px) saturate(180%);
+    
+  }
+  .search-bar input{
+    background:transparent;
+    flex: 1;
+    border: 0;
+    outline: none;
+    padding: 24px 20px;
+    font-size: 20px;
+    color: #fff;
+  }
+  
+  button {
+    height: 40px;
+    width: 40px;
+    padding: 10px 10px;
+    background-color:#ef7d00;
+    color: #1b0303;
+    border: 0;
+    border-radius: 50px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #333;
+  }
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
